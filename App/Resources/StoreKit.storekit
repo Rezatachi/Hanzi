@@ -1,0 +1,73 @@
+{
+  "identifier" : "MandarinDriftStoreKitConfig",
+  "nonRenewingSubscriptions" : [ ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : true,
+      "internalID" : "premium.monthly",
+      "localizations" : [
+        {
+          "description" : "Unlimited reviews and all widgets.",
+          "displayName" : "Premium Monthly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.mandarindrift.premium.monthly",
+      "referenceName" : "Premium Monthly",
+      "subscriptionGroupID" : "group.mandarin.premium",
+      "type" : "RecurringSubscription"
+    },
+    {
+      "displayPrice" : "39.99",
+      "familyShareable" : true,
+      "internalID" : "premium.yearly",
+      "localizations" : [
+        {
+          "description" : "Best value for daily learners.",
+          "displayName" : "Premium Yearly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.mandarindrift.premium.yearly",
+      "referenceName" : "Premium Yearly",
+      "subscriptionGroupID" : "group.mandarin.premium",
+      "type" : "RecurringSubscription"
+    },
+    {
+      "displayPrice" : "89.99",
+      "familyShareable" : true,
+      "internalID" : "premium.lifetime",
+      "localizations" : [
+        {
+          "description" : "One-time premium unlock.",
+          "displayName" : "Premium Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.mandarindrift.premium.lifetime",
+      "referenceName" : "Premium Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "locale" : "en_US",
+    "storefront" : "USA"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "group.mandarin.premium",
+      "localizations" : [
+        {
+          "locale" : "en_US",
+          "name" : "Premium"
+        }
+      ],
+      "name" : "Premium"
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

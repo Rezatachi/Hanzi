@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "9e717740-b91e-54d5-9df8-9ec674ab408f",
+    "simplified": "你",
+    "traditional": "你",
+    "pinyin": "nǐ",
+    "pinyinNumeric": "ni3",
+    "pinyinSearch": "ni",
+    "definitions": [
+      "you"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 1,
+    "radical": "person",
+    "radicalMeaning": "person",
+    "strokeCount": 7,
+    "components": [
+      "亻",
+      "尔"
+    ],
+    "categories": [
+      "basics",
+      "family"
+    ],
+    "exampleChineseSimplified": "你好吗？",
+    "exampleChineseTraditional": "你好嗎？",
+    "examplePinyin": "Nǐ hǎo ma?",
+    "exampleEnglish": "How are you?",
+    "usageNote": "Use in direct address.",
+    "memoryHook": "Think of pointing to you.",
+    "toneTip": "Third tone: keep it low and dipping.",
+    "commonMistake": "Do not flatten it.",
+    "relatedEntryIds": [
+      "b4f7f677-334d-5acf-b39e-be6ba4a0311b"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "b4f7f677-334d-5acf-b39e-be6ba4a0311b",
+    "simplified": "好",
+    "traditional": "好",
+    "pinyin": "hǎo",
+    "pinyinNumeric": "hao3",
+    "pinyinSearch": "hao",
+    "definitions": [
+      "good"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 2,
+    "radical": "女",
+    "radicalMeaning": "woman",
+    "strokeCount": 6,
+    "components": [
+      "女",
+      "子"
+    ],
+    "categories": [
+      "basics",
+      "emotions"
+    ],
+    "exampleChineseSimplified": "很好，谢谢。",
+    "exampleChineseTraditional": "很好，謝謝。",
+    "examplePinyin": "Hěn hǎo, xièxie.",
+    "exampleEnglish": "Very good, thanks.",
+    "usageNote": "Often follows 很 in basic replies.",
+    "memoryHook": "A common early anchor word.",
+    "toneTip": "Third tone stays low before pause.",
+    "commonMistake": "Avoid saying it like English how.",
+    "relatedEntryIds": [
+      "9e717740-b91e-54d5-9df8-9ec674ab408f"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "6f3a1f74-2ba1-5f26-ba7c-8dd8d7f76373",
+    "simplified": "我",
+    "traditional": "我",
+    "pinyin": "wǒ",
+    "pinyinNumeric": "wo3",
+    "pinyinSearch": "wo",
+    "definitions": [
+      "I",
+      "me"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 3,
+    "radical": "戈",
+    "radicalMeaning": "spear",
+    "strokeCount": 7,
+    "components": [
+      "手",
+      "戈"
+    ],
+    "categories": [
+      "basics",
+      "family"
+    ],
+    "exampleChineseSimplified": "我是学生。",
+    "exampleChineseTraditional": "我是學生。",
+    "examplePinyin": "Wǒ shì xuésheng.",
+    "exampleEnglish": "I am a student.",
+    "usageNote": "Use for self-reference.",
+    "memoryHook": "A strong first-person anchor.",
+    "toneTip": "Third tone; keep it full.",
+    "commonMistake": "Do not turn it into second tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "ec088258-7e32-541a-8aa9-3c5d3ba31fbb",
+    "simplified": "是",
+    "traditional": "是",
+    "pinyin": "shì",
+    "pinyinNumeric": "shi4",
+    "pinyinSearch": "shi",
+    "definitions": [
+      "to be"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 4,
+    "radical": "日",
+    "radicalMeaning": "sun",
+    "strokeCount": 9,
+    "components": [
+      "日",
+      "正"
+    ],
+    "categories": [
+      "basics",
+      "work"
+    ],
+    "exampleChineseSimplified": "今天是周一。",
+    "exampleChineseTraditional": "今天是週一。",
+    "examplePinyin": "Jīntiān shì zhōuyī.",
+    "exampleEnglish": "Today is Monday.",
+    "usageNote": "Use to identify or assert.",
+    "memoryHook": "Picture a clear equals sign.",
+    "toneTip": "Fourth tone should fall cleanly.",
+    "commonMistake": "Do not over-stretch the vowel.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "da6bedb1-5400-5968-9193-d94d961b30b0",
+    "simplified": "不",
+    "traditional": "不",
+    "pinyin": "bù",
+    "pinyinNumeric": "bu4",
+    "pinyinSearch": "bu",
+    "definitions": [
+      "not"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 5,
+    "radical": "一",
+    "radicalMeaning": "one",
+    "strokeCount": 4,
+    "components": [
+      "一",
+      "丿"
+    ],
+    "categories": [
+      "basics",
+      "work"
+    ],
+    "exampleChineseSimplified": "我不是老师。",
+    "exampleChineseTraditional": "我不是老師。",
+    "examplePinyin": "Wǒ bú shì lǎoshī.",
+    "exampleEnglish": "I am not a teacher.",
+    "usageNote": "Negates verbs and adjectives.",
+    "memoryHook": "A small block word that flips meaning.",
+    "toneTip": "Before a fourth tone it changes to bú.",
+    "commonMistake": "Do not keep it always fourth tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "d5f7c547-da1a-5902-a7bd-2de10bd34c69",
+    "simplified": "吗",
+    "traditional": "嗎",
+    "pinyin": "ma",
+    "pinyinNumeric": "ma",
+    "pinyinSearch": "ma",
+    "definitions": [
+      "question particle"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 6,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 6,
+    "components": [
+      "口",
+      "马"
+    ],
+    "categories": [
+      "basics",
+      "basics"
+    ],
+    "exampleChineseSimplified": "你忙吗？",
+    "exampleChineseTraditional": "你忙嗎？",
+    "examplePinyin": "Nǐ máng ma?",
+    "exampleEnglish": "Are you busy?",
+    "usageNote": "Adds a yes-no question feeling.",
+    "memoryHook": "Think of a gentle question mark.",
+    "toneTip": "Neutral tone, very light.",
+    "commonMistake": "Do not stress it heavily.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "f5263016-6164-591e-8c8b-5b4c210827f4",
+    "simplified": "谢谢",
+    "traditional": "謝謝",
+    "pinyin": "xièxie",
+    "pinyinNumeric": "xie4 xie",
+    "pinyinSearch": "xie xie",
+    "definitions": [
+      "thank you"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 7,
+    "radical": "言",
+    "radicalMeaning": "speech",
+    "strokeCount": 17,
+    "components": [
+      "讠",
+      "射"
+    ],
+    "categories": [
+      "basics",
+      "family"
+    ],
+    "exampleChineseSimplified": "谢谢你的帮助。",
+    "exampleChineseTraditional": "謝謝你的幫助。",
+    "examplePinyin": "Xièxie nǐ de bāngzhù.",
+    "exampleEnglish": "Thank you for your help.",
+    "usageNote": "Useful in daily politeness.",
+    "memoryHook": "Say it often until it feels natural.",
+    "toneTip": "First syllable falls sharply.",
+    "commonMistake": "Do not make both syllables equally strong.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "cc67ce8d-08ef-5b68-be79-b8abeb6b4bd3",
+    "simplified": "再见",
+    "traditional": "再見",
+    "pinyin": "zàijiàn",
+    "pinyinNumeric": "zai4 jian4",
+    "pinyinSearch": "zai jian",
+    "definitions": [
+      "goodbye"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 8,
+    "radical": "冂",
+    "radicalMeaning": "open border",
+    "strokeCount": 10,
+    "components": [
+      "再",
+      "见"
+    ],
+    "categories": [
+      "basics",
+      "travel"
+    ],
+    "exampleChineseSimplified": "我们明天再见。",
+    "exampleChineseTraditional": "我們明天再見。",
+    "examplePinyin": "Wǒmen míngtiān zàijiàn.",
+    "exampleEnglish": "See you tomorrow.",
+    "usageNote": "Used when parting.",
+    "memoryHook": "再 means again, 见 means see.",
+    "toneTip": "Both syllables are falling tones.",
+    "commonMistake": "Do not blur the final n.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "0b788dd1-2dc2-5d63-ba8e-3c8cbae174e5",
+    "simplified": "今天",
+    "traditional": "今天",
+    "pinyin": "jīntiān",
+    "pinyinNumeric": "jin1 tian1",
+    "pinyinSearch": "jin tian",
+    "definitions": [
+      "today"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 9,
+    "radical": "人",
+    "radicalMeaning": "person",
+    "strokeCount": 8,
+    "components": [
+      "今",
+      "天"
+    ],
+    "categories": [
+      "time",
+      "basics"
+    ],
+    "exampleChineseSimplified": "今天很热。",
+    "exampleChineseTraditional": "今天很熱。",
+    "examplePinyin": "Jīntiān hěn rè.",
+    "exampleEnglish": "Today is hot.",
+    "usageNote": "A core time word for daily scenes.",
+    "memoryHook": "Both syllables feel bright and level.",
+    "toneTip": "Two first tones, stay high and even.",
+    "commonMistake": "Do not drop the second syllable.",
+    "relatedEntryIds": [
+      "bc54cee1-83ce-5c89-8f44-1cf35de2dde2"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "bc54cee1-83ce-5c89-8f44-1cf35de2dde2",
+    "simplified": "明天",
+    "traditional": "明天",
+    "pinyin": "míngtiān",
+    "pinyinNumeric": "ming2 tian1",
+    "pinyinSearch": "ming tian",
+    "definitions": [
+      "tomorrow"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 10,
+    "radical": "日",
+    "radicalMeaning": "sun",
+    "strokeCount": 12,
+    "components": [
+      "明",
+      "天"
+    ],
+    "categories": [
+      "time",
+      "travel"
+    ],
+    "exampleChineseSimplified": "明天去北京。",
+    "exampleChineseTraditional": "明天去北京。",
+    "examplePinyin": "Míngtiān qù Běijīng.",
+    "exampleEnglish": "Go to Beijing tomorrow.",
+    "usageNote": "Useful for plans.",
+    "memoryHook": "明 suggests brightness ahead.",
+    "toneTip": "Second tone rises clearly on 明.",
+    "commonMistake": "Do not say both syllables flat.",
+    "relatedEntryIds": [
+      "0b788dd1-2dc2-5d63-ba8e-3c8cbae174e5"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "87be5fb1-7a09-5724-a9e0-71df58d81db7",
+    "simplified": "吃",
+    "traditional": "吃",
+    "pinyin": "chī",
+    "pinyinNumeric": "chi1",
+    "pinyinSearch": "chi",
+    "definitions": [
+      "to eat"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 11,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 6,
+    "components": [
+      "口",
+      "乞"
+    ],
+    "categories": [
+      "food",
+      "basics"
+    ],
+    "exampleChineseSimplified": "你想吃什么？",
+    "exampleChineseTraditional": "你想吃什麼？",
+    "examplePinyin": "Nǐ xiǎng chī shénme?",
+    "exampleEnglish": "What do you want to eat?",
+    "usageNote": "Use with meals and snacks.",
+    "memoryHook": "Picture chopsticks going up.",
+    "toneTip": "First tone stays level.",
+    "commonMistake": "Do not turn it into a falling tone.",
+    "relatedEntryIds": [
+      "83ec3e81-a114-5cf9-bfef-27048ed19043"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "83ec3e81-a114-5cf9-bfef-27048ed19043",
+    "simplified": "喝",
+    "traditional": "喝",
+    "pinyin": "hē",
+    "pinyinNumeric": "he1",
+    "pinyinSearch": "he",
+    "definitions": [
+      "to drink"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 12,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 12,
+    "components": [
+      "口",
+      "曷"
+    ],
+    "categories": [
+      "food",
+      "health"
+    ],
+    "exampleChineseSimplified": "我喝水。",
+    "exampleChineseTraditional": "我喝水。",
+    "examplePinyin": "Wǒ hē shuǐ.",
+    "exampleEnglish": "I drink water.",
+    "usageNote": "Pairs naturally with drinks.",
+    "memoryHook": "The mouth radical helps.",
+    "toneTip": "First tone; keep it steady.",
+    "commonMistake": "Avoid an English huh sound.",
+    "relatedEntryIds": [
+      "7be37dc6-a913-5cf3-b618-8fa8e02d0c4a"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "7be37dc6-a913-5cf3-b618-8fa8e02d0c4a",
+    "simplified": "水",
+    "traditional": "水",
+    "pinyin": "shuǐ",
+    "pinyinNumeric": "shui3",
+    "pinyinSearch": "shui",
+    "definitions": [
+      "water"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 13,
+    "radical": "水",
+    "radicalMeaning": "water",
+    "strokeCount": 4,
+    "components": [
+      "水"
+    ],
+    "categories": [
+      "food",
+      "health"
+    ],
+    "exampleChineseSimplified": "这里有热水。",
+    "exampleChineseTraditional": "這裡有熱水。",
+    "examplePinyin": "Zhèlǐ yǒu rè shuǐ.",
+    "exampleEnglish": "There is hot water here.",
+    "usageNote": "A foundation word in many places.",
+    "memoryHook": "The character itself resembles flowing lines.",
+    "toneTip": "Third tone dips then rises lightly.",
+    "commonMistake": "Do not over-pronounce the i glide.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "44303955-3161-53b8-b2de-d6091cab5229",
+    "simplified": "茶",
+    "traditional": "茶",
+    "pinyin": "chá",
+    "pinyinNumeric": "cha2",
+    "pinyinSearch": "cha",
+    "definitions": [
+      "tea"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 14,
+    "radical": "艹",
+    "radicalMeaning": "grass",
+    "strokeCount": 9,
+    "components": [
+      "艹",
+      "人",
+      "木"
+    ],
+    "categories": [
+      "food",
+      "culture"
+    ],
+    "exampleChineseSimplified": "我要一杯茶。",
+    "exampleChineseTraditional": "我要一杯茶。",
+    "examplePinyin": "Wǒ yào yì bēi chá.",
+    "exampleEnglish": "I want a cup of tea.",
+    "usageNote": "Common in cafes and homes.",
+    "memoryHook": "Grass on top hints at plant origin.",
+    "toneTip": "Second tone should rise.",
+    "commonMistake": "Do not flatten it to first tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "8b0423e5-7f88-549d-ae62-1cbcb4b46407",
+    "simplified": "咖啡",
+    "traditional": "咖啡",
+    "pinyin": "kāfēi",
+    "pinyinNumeric": "ka1 fei1",
+    "pinyinSearch": "ka fei",
+    "definitions": [
+      "coffee"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 15,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 16,
+    "components": [
+      "口",
+      "加",
+      "非"
+    ],
+    "categories": [
+      "food",
+      "work"
+    ],
+    "exampleChineseSimplified": "早上我喝咖啡。",
+    "exampleChineseTraditional": "早上我喝咖啡。",
+    "examplePinyin": "Zǎoshang wǒ hē kāfēi.",
+    "exampleEnglish": "I drink coffee in the morning.",
+    "usageNote": "A useful modern loanword.",
+    "memoryHook": "Hear the repeated first-tone energy.",
+    "toneTip": "Both syllables are first tone.",
+    "commonMistake": "Do not stress the second syllable only.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "1ed78415-9c32-5549-85d2-5d3575a92953",
+    "simplified": "学习",
+    "traditional": "學習",
+    "pinyin": "xuéxí",
+    "pinyinNumeric": "xue2 xi2",
+    "pinyinSearch": "xue xi",
+    "definitions": [
+      "to study"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 16,
+    "radical": "子",
+    "radicalMeaning": "child",
+    "strokeCount": 19,
+    "components": [
+      "学",
+      "习"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "我每天学习中文。",
+    "exampleChineseTraditional": "我每天學習中文。",
+    "examplePinyin": "Wǒ měitiān xuéxí Zhōngwén.",
+    "exampleEnglish": "I study Chinese every day.",
+    "usageNote": "Useful for describing study habits.",
+    "memoryHook": "Two rising syllables pull forward.",
+    "toneTip": "Both tones are second tone.",
+    "commonMistake": "Do not turn 习 into neutral tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "cf1488f1-9aba-559f-8e72-3c92eb0dc064",
+    "simplified": "中文",
+    "traditional": "中文",
+    "pinyin": "Zhōngwén",
+    "pinyinNumeric": "zhong1 wen2",
+    "pinyinSearch": "zhong wen",
+    "definitions": [
+      "Chinese language"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 17,
+    "radical": "文",
+    "radicalMeaning": "script",
+    "strokeCount": 8,
+    "components": [
+      "中",
+      "文"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "中文不容易，但是很美。",
+    "exampleChineseTraditional": "中文不容易，但是很美。",
+    "examplePinyin": "Zhōngwén bù róngyì, dànshì hěn měi.",
+    "exampleEnglish": "Chinese is not easy, but it is beautiful.",
+    "usageNote": "Refers to written or spoken Chinese.",
+    "memoryHook": "中 is center, 文 is language or text.",
+    "toneTip": "First tone then rising second tone.",
+    "commonMistake": "Keep 文 distinct from 问.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "f2a27719-01cc-5133-8f12-44fb8ab1d838",
+    "simplified": "汉字",
+    "traditional": "漢字",
+    "pinyin": "Hànzì",
+    "pinyinNumeric": "han4 zi4",
+    "pinyinSearch": "han zi",
+    "definitions": [
+      "Chinese characters"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 18,
+    "radical": "氵",
+    "radicalMeaning": "water",
+    "strokeCount": 10,
+    "components": [
+      "汉",
+      "字"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "汉字看起来像画。",
+    "exampleChineseTraditional": "漢字看起來像畫。",
+    "examplePinyin": "Hànzì kàn qǐlái xiàng huà.",
+    "exampleEnglish": "Chinese characters look like drawings.",
+    "usageNote": "Refers specifically to written characters.",
+    "memoryHook": "A core term for literacy.",
+    "toneTip": "Fourth tone on 汉, neutral-to-light fall on 字.",
+    "commonMistake": "Do not say zi as third tone here.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "13fcb2b4-81db-573c-b7f3-a9771f3f5320",
+    "simplified": "朋友",
+    "traditional": "朋友",
+    "pinyin": "péngyou",
+    "pinyinNumeric": "peng2 you3",
+    "pinyinSearch": "peng you",
+    "definitions": [
+      "friend"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 19,
+    "radical": "月",
+    "radicalMeaning": "moon",
+    "strokeCount": 8,
+    "components": [
+      "月",
+      "月"
+    ],
+    "categories": [
+      "family",
+      "basics"
+    ],
+    "exampleChineseSimplified": "她是我的朋友。",
+    "exampleChineseTraditional": "她是我的朋友。",
+    "examplePinyin": "Tā shì wǒ de péngyou.",
+    "exampleEnglish": "She is my friend.",
+    "usageNote": "Very common social word.",
+    "memoryHook": "Think of two moons standing together.",
+    "toneTip": "First syllable rises, second often light.",
+    "commonMistake": "Do not over-stress the second syllable.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "71c9b9b6-4ef9-5f00-aa6b-24282de0d2e0",
+    "simplified": "家",
+    "traditional": "家",
+    "pinyin": "jiā",
+    "pinyinNumeric": "jia1",
+    "pinyinSearch": "jia",
+    "definitions": [
+      "home",
+      "family"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 20,
+    "radical": "宀",
+    "radicalMeaning": "roof",
+    "strokeCount": 10,
+    "components": [
+      "宀",
+      "豕"
+    ],
+    "categories": [
+      "family",
+      "basics"
+    ],
+    "exampleChineseSimplified": "我想回家。",
+    "exampleChineseTraditional": "我想回家。",
+    "examplePinyin": "Wǒ xiǎng huí jiā.",
+    "exampleEnglish": "I want to go home.",
+    "usageNote": "Can mean home or family depending on context.",
+    "memoryHook": "Roof over pig is the classic memory hook.",
+    "toneTip": "First tone stays level.",
+    "commonMistake": "Do not say it like English jar.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "af719e7e-6430-590b-9577-bc40f584fba5",
+    "simplified": "工作",
+    "traditional": "工作",
+    "pinyin": "gōngzuò",
+    "pinyinNumeric": "gong1 zuo4",
+    "pinyinSearch": "gong zuo",
+    "definitions": [
+      "work"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 21,
+    "radical": "工",
+    "radicalMeaning": "work",
+    "strokeCount": 10,
+    "components": [
+      "工",
+      "作"
+    ],
+    "categories": [
+      "work",
+      "technology"
+    ],
+    "exampleChineseSimplified": "他在上海工作。",
+    "exampleChineseTraditional": "他在上海工作。",
+    "examplePinyin": "Tā zài Shànghǎi gōngzuò.",
+    "exampleEnglish": "He works in Shanghai.",
+    "usageNote": "Use for job or working action.",
+    "memoryHook": "工 is work, 作 is to do.",
+    "toneTip": "First tone then falling fourth tone.",
+    "commonMistake": "Keep 作 crisp, not dragged out.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "0a55312c-cf52-537f-bc61-10a3065a24c2",
+    "simplified": "钱",
+    "traditional": "錢",
+    "pinyin": "qián",
+    "pinyinNumeric": "qian2",
+    "pinyinSearch": "qian",
+    "definitions": [
+      "money"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 22,
+    "radical": "钅",
+    "radicalMeaning": "metal",
+    "strokeCount": 10,
+    "components": [
+      "钅",
+      "戋"
+    ],
+    "categories": [
+      "shopping",
+      "work"
+    ],
+    "exampleChineseSimplified": "我没有很多钱。",
+    "exampleChineseTraditional": "我沒有很多錢。",
+    "examplePinyin": "Wǒ méiyǒu hěn duō qián.",
+    "exampleEnglish": "I do not have much money.",
+    "usageNote": "Useful for buying and budgeting.",
+    "memoryHook": "Metal radical hints at coins.",
+    "toneTip": "Second tone rises.",
+    "commonMistake": "Do not confuse it with 前.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "4eabb794-714e-5f62-831c-b7790c3736a8",
+    "simplified": "买",
+    "traditional": "買",
+    "pinyin": "mǎi",
+    "pinyinNumeric": "mai3",
+    "pinyinSearch": "mai",
+    "definitions": [
+      "to buy"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 23,
+    "radical": "乙",
+    "radicalMeaning": "second",
+    "strokeCount": 6,
+    "components": [
+      "乛",
+      "头"
+    ],
+    "categories": [
+      "shopping",
+      "travel"
+    ],
+    "exampleChineseSimplified": "我想买水果。",
+    "exampleChineseTraditional": "我想買水果。",
+    "examplePinyin": "Wǒ xiǎng mǎi shuǐguǒ.",
+    "exampleEnglish": "I want to buy fruit.",
+    "usageNote": "Used in shops and markets.",
+    "memoryHook": "Picture taking goods home.",
+    "toneTip": "Third tone needs a clear dip.",
+    "commonMistake": "Do not make it second tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "8bb48148-2e40-5649-9dad-dfc7aaaefcc6",
+    "simplified": "去",
+    "traditional": "去",
+    "pinyin": "qù",
+    "pinyinNumeric": "qu4",
+    "pinyinSearch": "qu",
+    "definitions": [
+      "to go"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 24,
+    "radical": "厶",
+    "radicalMeaning": "private",
+    "strokeCount": 5,
+    "components": [
+      "土",
+      "厶"
+    ],
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "exampleChineseSimplified": "我们现在去地铁站。",
+    "exampleChineseTraditional": "我們現在去地鐵站。",
+    "examplePinyin": "Wǒmen xiànzài qù dìtiě zhàn.",
+    "exampleEnglish": "We are going to the subway station now.",
+    "usageNote": "Use for going away from the speaker.",
+    "memoryHook": "A movement word with a firm drop.",
+    "toneTip": "Fourth tone falls quickly.",
+    "commonMistake": "Do not soften it too much.",
+    "relatedEntryIds": [
+      "b46c7899-918a-5d36-bdd4-9825020649b5"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "b46c7899-918a-5d36-bdd4-9825020649b5",
+    "simplified": "来",
+    "traditional": "來",
+    "pinyin": "lái",
+    "pinyinNumeric": "lai2",
+    "pinyinSearch": "lai",
+    "definitions": [
+      "to come"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 25,
+    "radical": "木",
+    "radicalMeaning": "wood",
+    "strokeCount": 8,
+    "components": [
+      "木",
+      "从"
+    ],
+    "categories": [
+      "travel",
+      "family"
+    ],
+    "exampleChineseSimplified": "你什么时候来？",
+    "exampleChineseTraditional": "你什麼時候來？",
+    "examplePinyin": "Nǐ shénme shíhou lái?",
+    "exampleEnglish": "When are you coming?",
+    "usageNote": "Use for movement toward the speaker.",
+    "memoryHook": "Think of motion approaching you.",
+    "toneTip": "Second tone rises cleanly.",
+    "commonMistake": "Do not confuse it with 去.",
+    "relatedEntryIds": [
+      "8bb48148-2e40-5649-9dad-dfc7aaaefcc6"
+    ],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "a34368e2-6dcd-5adc-ae7a-5253593cbdcd",
+    "simplified": "喜欢",
+    "traditional": "喜歡",
+    "pinyin": "xǐhuan",
+    "pinyinNumeric": "xi3 huan",
+    "pinyinSearch": "xi huan",
+    "definitions": [
+      "to like"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 26,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 28,
+    "components": [
+      "喜",
+      "欢"
+    ],
+    "categories": [
+      "emotions",
+      "culture"
+    ],
+    "exampleChineseSimplified": "我喜欢看电影。",
+    "exampleChineseTraditional": "我喜歡看電影。",
+    "examplePinyin": "Wǒ xǐhuan kàn diànyǐng.",
+    "exampleEnglish": "I like watching movies.",
+    "usageNote": "A soft everyday preference verb.",
+    "memoryHook": "喜 carries the emotional weight.",
+    "toneTip": "First syllable is third tone, second is light.",
+    "commonMistake": "Do not over-stress 欢.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "6d034eae-42f9-59cc-83d7-ea4fdb9f9552",
+    "simplified": "想",
+    "traditional": "想",
+    "pinyin": "xiǎng",
+    "pinyinNumeric": "xiang3",
+    "pinyinSearch": "xiang",
+    "definitions": [
+      "to want",
+      "to think"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 27,
+    "radical": "心",
+    "radicalMeaning": "heart",
+    "strokeCount": 13,
+    "components": [
+      "相",
+      "心"
+    ],
+    "categories": [
+      "emotions",
+      "basics"
+    ],
+    "exampleChineseSimplified": "我想休息一下。",
+    "exampleChineseTraditional": "我想休息一下。",
+    "examplePinyin": "Wǒ xiǎng xiūxi yíxià.",
+    "exampleEnglish": "I want to rest a bit.",
+    "usageNote": "Can mean want or think depending on context.",
+    "memoryHook": "Heart plus image makes a nice memory hook.",
+    "toneTip": "Third tone should be full.",
+    "commonMistake": "Do not mix it up with 像.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "9f25b806-89d6-5638-8a10-b5b24f764b6e",
+    "simplified": "会",
+    "traditional": "會",
+    "pinyin": "huì",
+    "pinyinNumeric": "hui4",
+    "pinyinSearch": "hui",
+    "definitions": [
+      "can",
+      "will"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 28,
+    "radical": "人",
+    "radicalMeaning": "person",
+    "strokeCount": 6,
+    "components": [
+      "人",
+      "云"
+    ],
+    "categories": [
+      "work",
+      "basics"
+    ],
+    "exampleChineseSimplified": "我会一点中文。",
+    "exampleChineseTraditional": "我會一點中文。",
+    "examplePinyin": "Wǒ huì yìdiǎn Zhōngwén.",
+    "exampleEnglish": "I can speak a little Chinese.",
+    "usageNote": "Often expresses ability or future.",
+    "memoryHook": "A flexible modal word.",
+    "toneTip": "Fourth tone drops.",
+    "commonMistake": "Do not always translate it as meeting.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "ab0d7b59-b6de-5be0-83d5-8c0e1bfe3a7b",
+    "simplified": "看",
+    "traditional": "看",
+    "pinyin": "kàn",
+    "pinyinNumeric": "kan4",
+    "pinyinSearch": "kan",
+    "definitions": [
+      "to look",
+      "watch",
+      "read"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 29,
+    "radical": "目",
+    "radicalMeaning": "eye",
+    "strokeCount": 9,
+    "components": [
+      "手",
+      "目"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "我晚上看书。",
+    "exampleChineseTraditional": "我晚上看書。",
+    "examplePinyin": "Wǒ wǎnshang kàn shū.",
+    "exampleEnglish": "I read at night.",
+    "usageNote": "Meaning depends on object.",
+    "memoryHook": "Use eyes plus hand as a visual cue.",
+    "toneTip": "Fourth tone falls clearly.",
+    "commonMistake": "Do not blur it with 砍.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "39f024ac-118e-5ced-ab10-f8f88eee9c74",
+    "simplified": "听",
+    "traditional": "聽",
+    "pinyin": "tīng",
+    "pinyinNumeric": "ting1",
+    "pinyinSearch": "ting",
+    "definitions": [
+      "to listen"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 1",
+    "frequencyRank": 30,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 7,
+    "components": [
+      "口",
+      "斤"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "请听我说。",
+    "exampleChineseTraditional": "請聽我說。",
+    "examplePinyin": "Qǐng tīng wǒ shuō.",
+    "exampleEnglish": "Please listen to me.",
+    "usageNote": "Useful for audio-first study prompts.",
+    "memoryHook": "Ear on the right helps memory.",
+    "toneTip": "First tone stays level.",
+    "commonMistake": "Do not drop the final ng.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "3f605da0-0755-5a1e-b655-05d722478602",
+    "simplified": "说",
+    "traditional": "說",
+    "pinyin": "shuō",
+    "pinyinNumeric": "shuo1",
+    "pinyinSearch": "shuo",
+    "definitions": [
+      "to speak",
+      "say"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 31,
+    "radical": "讠",
+    "radicalMeaning": "speech",
+    "strokeCount": 9,
+    "components": [
+      "讠",
+      "兑"
+    ],
+    "categories": [
+      "basics",
+      "work"
+    ],
+    "exampleChineseSimplified": "他说中文说得很快。",
+    "exampleChineseTraditional": "他說中文說得很快。",
+    "examplePinyin": "Tā shuō Zhōngwén shuō de hěn kuài.",
+    "exampleEnglish": "He speaks Chinese very quickly.",
+    "usageNote": "Pairs often with language names.",
+    "memoryHook": "Speech radical makes it easy to spot.",
+    "toneTip": "First tone, long but steady.",
+    "commonMistake": "Do not reduce the o too much.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "9b8f7148-4050-5fd1-8618-2786a856e394",
+    "simplified": "书",
+    "traditional": "書",
+    "pinyin": "shū",
+    "pinyinNumeric": "shu1",
+    "pinyinSearch": "shu",
+    "definitions": [
+      "book"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 32,
+    "radical": "乛",
+    "radicalMeaning": "hook",
+    "strokeCount": 4,
+    "components": [
+      "乛",
+      "丨"
+    ],
+    "categories": [
+      "school",
+      "culture"
+    ],
+    "exampleChineseSimplified": "这本书很有意思。",
+    "exampleChineseTraditional": "這本書很有意思。",
+    "examplePinyin": "Zhè běn shū hěn yǒu yìsi.",
+    "exampleEnglish": "This book is interesting.",
+    "usageNote": "Useful with measure word 本.",
+    "memoryHook": "A classic object word for reading scenes.",
+    "toneTip": "First tone stays high.",
+    "commonMistake": "Avoid saying it like shoe.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "a693ea38-85df-5136-91ca-f7f137bb638a",
+    "simplified": "学校",
+    "traditional": "學校",
+    "pinyin": "xuéxiào",
+    "pinyinNumeric": "xue2 xiao4",
+    "pinyinSearch": "xue xiao",
+    "definitions": [
+      "school"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 33,
+    "radical": "木",
+    "radicalMeaning": "wood",
+    "strokeCount": 20,
+    "components": [
+      "学",
+      "校"
+    ],
+    "categories": [
+      "school",
+      "family"
+    ],
+    "exampleChineseSimplified": "她在学校附近住。",
+    "exampleChineseTraditional": "她在學校附近住。",
+    "examplePinyin": "Tā zài xuéxiào fùjìn zhù.",
+    "exampleEnglish": "She lives near the school.",
+    "usageNote": "A key place word.",
+    "memoryHook": "学 plus 校 keeps learning grounded in place.",
+    "toneTip": "Second then fourth tone.",
+    "commonMistake": "Do not flatten 校.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "568f7349-af65-5da6-acbc-e628ee2ea90a",
+    "simplified": "老师",
+    "traditional": "老師",
+    "pinyin": "lǎoshī",
+    "pinyinNumeric": "lao3 shi1",
+    "pinyinSearch": "lao shi",
+    "definitions": [
+      "teacher"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 34,
+    "radical": "老",
+    "radicalMeaning": "old",
+    "strokeCount": 16,
+    "components": [
+      "老",
+      "师"
+    ],
+    "categories": [
+      "school",
+      "work"
+    ],
+    "exampleChineseSimplified": "我的老师很耐心。",
+    "exampleChineseTraditional": "我的老師很耐心。",
+    "examplePinyin": "Wǒ de lǎoshī hěn nàixīn.",
+    "exampleEnglish": "My teacher is very patient.",
+    "usageNote": "A respectful common title.",
+    "memoryHook": "老 adds respect more than age here.",
+    "toneTip": "Third tone then first tone.",
+    "commonMistake": "Do not say the second syllable too lightly.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "b1b09314-f19b-518b-9e30-b160c2b5979a",
+    "simplified": "学生",
+    "traditional": "學生",
+    "pinyin": "xuésheng",
+    "pinyinNumeric": "xue2 sheng",
+    "pinyinSearch": "xue sheng",
+    "definitions": [
+      "student"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 35,
+    "radical": "子",
+    "radicalMeaning": "child",
+    "strokeCount": 13,
+    "components": [
+      "学",
+      "生"
+    ],
+    "categories": [
+      "school",
+      "family"
+    ],
+    "exampleChineseSimplified": "学生很多。",
+    "exampleChineseTraditional": "學生很多。",
+    "examplePinyin": "Xuésheng hěn duō.",
+    "exampleEnglish": "There are many students.",
+    "usageNote": "Very common self-description.",
+    "memoryHook": "学 gives meaning, 生 often lightens.",
+    "toneTip": "First syllable rises, second is often neutral.",
+    "commonMistake": "Do not force 生 into first tone every time.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "6864d5a4-bf6f-527b-bf42-2c745e173dce",
+    "simplified": "飞机",
+    "traditional": "飛機",
+    "pinyin": "fēijī",
+    "pinyinNumeric": "fei1 ji1",
+    "pinyinSearch": "fei ji",
+    "definitions": [
+      "airplane"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 36,
+    "radical": "飞",
+    "radicalMeaning": "fly",
+    "strokeCount": 12,
+    "components": [
+      "飞",
+      "木"
+    ],
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "exampleChineseSimplified": "飞机快要起飞了。",
+    "exampleChineseTraditional": "飛機快要起飛了。",
+    "examplePinyin": "Fēijī kuàiyào qǐfēi le.",
+    "exampleEnglish": "The plane is about to take off.",
+    "usageNote": "Useful for travel days.",
+    "memoryHook": "Both characters relate to flight and machine.",
+    "toneTip": "Two first tones.",
+    "commonMistake": "Keep 机 crisp, not too soft.",
+    "relatedEntryIds": [],
+    "isPremium": true,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "c2d5bc77-95a2-5526-8215-45f3d484166e",
+    "simplified": "地铁",
+    "traditional": "地鐵",
+    "pinyin": "dìtiě",
+    "pinyinNumeric": "di4 tie3",
+    "pinyinSearch": "di tie",
+    "definitions": [
+      "subway"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 37,
+    "radical": "土",
+    "radicalMeaning": "earth",
+    "strokeCount": 17,
+    "components": [
+      "土",
+      "铁"
+    ],
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "exampleChineseSimplified": "地铁站在前面。",
+    "exampleChineseTraditional": "地鐵站在前面。",
+    "examplePinyin": "Dìtiě zhàn zài qiánmiàn.",
+    "exampleEnglish": "The subway station is ahead.",
+    "usageNote": "Useful in city scenes.",
+    "memoryHook": "Earth plus iron makes an underground train easy to recall.",
+    "toneTip": "Fourth tone then third tone.",
+    "commonMistake": "Do not turn 铁 into second tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "c51161be-5b3e-5e8e-bccb-5748f2617ca9",
+    "simplified": "天气",
+    "traditional": "天氣",
+    "pinyin": "tiānqì",
+    "pinyinNumeric": "tian1 qi4",
+    "pinyinSearch": "tian qi",
+    "definitions": [
+      "weather"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 38,
+    "radical": "天",
+    "radicalMeaning": "sky",
+    "strokeCount": 16,
+    "components": [
+      "天",
+      "气"
+    ],
+    "categories": [
+      "weather",
+      "time"
+    ],
+    "exampleChineseSimplified": "今天天气不错。",
+    "exampleChineseTraditional": "今天天氣不錯。",
+    "examplePinyin": "Jīntiān tiānqì bú cuò.",
+    "exampleEnglish": "The weather is nice today.",
+    "usageNote": "Common small talk starter.",
+    "memoryHook": "Sky plus air hints at climate.",
+    "toneTip": "First tone then fourth tone.",
+    "commonMistake": "Remember 不 changes to bú before 错.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "1b64e556-2bf8-52dd-af89-477e55e92496",
+    "simplified": "热",
+    "traditional": "熱",
+    "pinyin": "rè",
+    "pinyinNumeric": "re4",
+    "pinyinSearch": "re",
+    "definitions": [
+      "hot"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 39,
+    "radical": "灬",
+    "radicalMeaning": "fire",
+    "strokeCount": 10,
+    "components": [
+      "执",
+      "灬"
+    ],
+    "categories": [
+      "weather",
+      "health"
+    ],
+    "exampleChineseSimplified": "外面很热。",
+    "exampleChineseTraditional": "外面很熱。",
+    "examplePinyin": "Wàimiàn hěn rè.",
+    "exampleEnglish": "It is hot outside.",
+    "usageNote": "Works for weather and object temperature.",
+    "memoryHook": "Fire radical supports meaning.",
+    "toneTip": "Fourth tone drops hard.",
+    "commonMistake": "Do not blur it into le.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "8bd6c5c9-f2a3-57ed-8164-474b4d1a23f7",
+    "simplified": "冷",
+    "traditional": "冷",
+    "pinyin": "lěng",
+    "pinyinNumeric": "leng3",
+    "pinyinSearch": "leng",
+    "definitions": [
+      "cold"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 40,
+    "radical": "冫",
+    "radicalMeaning": "ice",
+    "strokeCount": 7,
+    "components": [
+      "冫",
+      "令"
+    ],
+    "categories": [
+      "weather",
+      "health"
+    ],
+    "exampleChineseSimplified": "今天早上很冷。",
+    "exampleChineseTraditional": "今天早上很冷。",
+    "examplePinyin": "Jīntiān zǎoshang hěn lěng.",
+    "exampleEnglish": "It is cold this morning.",
+    "usageNote": "Useful for weather and drinks.",
+    "memoryHook": "Ice radical points to temperature.",
+    "toneTip": "Third tone dips.",
+    "commonMistake": "Do not say it flat.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "6f80cba5-c900-5633-91f5-41d4b118195c",
+    "simplified": "高兴",
+    "traditional": "高興",
+    "pinyin": "gāoxìng",
+    "pinyinNumeric": "gao1 xing4",
+    "pinyinSearch": "gao xing",
+    "definitions": [
+      "happy"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 41,
+    "radical": "高",
+    "radicalMeaning": "high",
+    "strokeCount": 16,
+    "components": [
+      "高",
+      "兴"
+    ],
+    "categories": [
+      "emotions",
+      "family"
+    ],
+    "exampleChineseSimplified": "见到你我很高兴。",
+    "exampleChineseTraditional": "見到你我很高興。",
+    "examplePinyin": "Jiàndào nǐ wǒ hěn gāoxìng.",
+    "exampleEnglish": "I am happy to see you.",
+    "usageNote": "Common when greeting or thanking.",
+    "memoryHook": "High mood is built into the first character.",
+    "toneTip": "First tone then fourth tone.",
+    "commonMistake": "Do not neutralize 兴.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "7db49a1d-5237-528d-8ba2-8d5262cce437",
+    "simplified": "忙",
+    "traditional": "忙",
+    "pinyin": "máng",
+    "pinyinNumeric": "mang2",
+    "pinyinSearch": "mang",
+    "definitions": [
+      "busy"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 42,
+    "radical": "忄",
+    "radicalMeaning": "heart",
+    "strokeCount": 6,
+    "components": [
+      "忄",
+      "亡"
+    ],
+    "categories": [
+      "work",
+      "family"
+    ],
+    "exampleChineseSimplified": "今天我有点忙。",
+    "exampleChineseTraditional": "今天我有點忙。",
+    "examplePinyin": "Jīntiān wǒ yǒudiǎn máng.",
+    "exampleEnglish": "I am a bit busy today.",
+    "usageNote": "Useful for polite declines.",
+    "memoryHook": "Heart radical links to mental load.",
+    "toneTip": "Second tone rises.",
+    "commonMistake": "Do not confuse it with 芒.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "3b59433b-6f49-5aad-b774-affde385165a",
+    "simplified": "知道",
+    "traditional": "知道",
+    "pinyin": "zhīdào",
+    "pinyinNumeric": "zhi1 dao4",
+    "pinyinSearch": "zhi dao",
+    "definitions": [
+      "to know"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 43,
+    "radical": "矢",
+    "radicalMeaning": "arrow",
+    "strokeCount": 16,
+    "components": [
+      "矢",
+      "道"
+    ],
+    "categories": [
+      "basics",
+      "school"
+    ],
+    "exampleChineseSimplified": "我知道这个字。",
+    "exampleChineseTraditional": "我知道這個字。",
+    "examplePinyin": "Wǒ zhīdào zhège zì.",
+    "exampleEnglish": "I know this character.",
+    "usageNote": "Marks recognition or knowledge.",
+    "memoryHook": "Know + arrive is a nice memory split.",
+    "toneTip": "First tone then falling fourth tone.",
+    "commonMistake": "Do not lighten 道 too much.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "bb8fcdf2-7189-5b4a-a736-2d45bae23c55",
+    "simplified": "觉得",
+    "traditional": "覺得",
+    "pinyin": "juéde",
+    "pinyinNumeric": "jue2 de",
+    "pinyinSearch": "jue de",
+    "definitions": [
+      "to feel",
+      "think"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 44,
+    "radical": "见",
+    "radicalMeaning": "see",
+    "strokeCount": 19,
+    "components": [
+      "觉",
+      "得"
+    ],
+    "categories": [
+      "emotions",
+      "basics"
+    ],
+    "exampleChineseSimplified": "我觉得这个方法很好。",
+    "exampleChineseTraditional": "我覺得這個方法很好。",
+    "examplePinyin": "Wǒ juéde zhège fāngfǎ hěn hǎo.",
+    "exampleEnglish": "I think this method is good.",
+    "usageNote": "Softens opinions in conversation.",
+    "memoryHook": "Use it when giving personal impressions.",
+    "toneTip": "First syllable rises, second is light.",
+    "commonMistake": "Do not pronounce 得 as de2 here.",
+    "relatedEntryIds": [],
+    "isPremium": true,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "198a6b4f-3994-5331-9dc5-c8f27aa0851d",
+    "simplified": "可以",
+    "traditional": "可以",
+    "pinyin": "kěyǐ",
+    "pinyinNumeric": "ke3 yi3",
+    "pinyinSearch": "ke yi",
+    "definitions": [
+      "can",
+      "may",
+      "okay"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 2",
+    "frequencyRank": 45,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 10,
+    "components": [
+      "可",
+      "以"
+    ],
+    "categories": [
+      "basics",
+      "work"
+    ],
+    "exampleChineseSimplified": "现在可以开始吗？",
+    "exampleChineseTraditional": "現在可以開始嗎？",
+    "examplePinyin": "Xiànzài kěyǐ kāishǐ ma?",
+    "exampleEnglish": "Can we start now?",
+    "usageNote": "Useful for permission and possibility.",
+    "memoryHook": "Two third tones, often smoothed in speech.",
+    "toneTip": "Third tone sandhi may affect the first syllable.",
+    "commonMistake": "Do not always translate it as possible only.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "1c1d7483-5f2c-5425-b260-e94079f732f1",
+    "simplified": "认识",
+    "traditional": "認識",
+    "pinyin": "rènshi",
+    "pinyinNumeric": "ren4 shi",
+    "pinyinSearch": "ren shi",
+    "definitions": [
+      "to know",
+      "to recognize",
+      "to meet"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 46,
+    "radical": "讠",
+    "radicalMeaning": "speech",
+    "strokeCount": 14,
+    "components": [
+      "讠",
+      "人",
+      "见"
+    ],
+    "categories": [
+      "basics",
+      "school"
+    ],
+    "exampleChineseSimplified": "我认识那位老师。",
+    "exampleChineseTraditional": "我認識那位老師。",
+    "examplePinyin": "Wǒ rènshi nà wèi lǎoshī.",
+    "exampleEnglish": "I know that teacher.",
+    "usageNote": "Use for knowing a person or recognizing something familiar.",
+    "memoryHook": "Think of recognizing a face and attaching a name to it.",
+    "toneTip": "The first syllable falls; the second is usually light.",
+    "commonMistake": "Use 知道 for facts and 认识 for people or recognition.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "4c86b34c-863c-599f-bbc8-a84952023ace",
+    "simplified": "名字",
+    "traditional": "名字",
+    "pinyin": "míngzi",
+    "pinyinNumeric": "ming2 zi",
+    "pinyinSearch": "ming zi",
+    "definitions": [
+      "name"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 47,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 9,
+    "components": [
+      "夕",
+      "口",
+      "子"
+    ],
+    "categories": [
+      "basics",
+      "family"
+    ],
+    "exampleChineseSimplified": "你的名字很好听。",
+    "exampleChineseTraditional": "你的名字很好聽。",
+    "examplePinyin": "Nǐ de míngzi hěn hǎotīng.",
+    "exampleEnglish": "Your name sounds nice.",
+    "usageNote": "Useful in introductions.",
+    "memoryHook": "名 often appears in identity vocabulary.",
+    "toneTip": "Second tone then light neutral syllable.",
+    "commonMistake": "Do not force 字 to fourth tone here.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "4f68113a-0cd6-5d67-ac84-b4bd44589b6c",
+    "simplified": "开",
+    "traditional": "開",
+    "pinyin": "kāi",
+    "pinyinNumeric": "kai1",
+    "pinyinSearch": "kai",
+    "definitions": [
+      "to open",
+      "start"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 48,
+    "radical": "廾",
+    "radicalMeaning": "two hands",
+    "strokeCount": 4,
+    "components": [
+      "一",
+      "廾"
+    ],
+    "categories": [
+      "work",
+      "travel"
+    ],
+    "exampleChineseSimplified": "会议九点开。",
+    "exampleChineseTraditional": "會議九點開。",
+    "examplePinyin": "Huìyì jiǔ diǎn kāi.",
+    "exampleEnglish": "The meeting starts at nine.",
+    "usageNote": "Used for opening things and beginning events.",
+    "memoryHook": "Picture a gate opening outward.",
+    "toneTip": "First tone holds steady.",
+    "commonMistake": "Do not confuse it with 来.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "e95151de-5034-539e-8175-2a3f0e3d3a93",
+    "simplified": "关",
+    "traditional": "關",
+    "pinyin": "guān",
+    "pinyinNumeric": "guan1",
+    "pinyinSearch": "guan",
+    "definitions": [
+      "to close",
+      "turn off"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 49,
+    "radical": "丷",
+    "radicalMeaning": "split",
+    "strokeCount": 6,
+    "components": [
+      "丷",
+      "天"
+    ],
+    "categories": [
+      "work",
+      "technology"
+    ],
+    "exampleChineseSimplified": "请关门。",
+    "exampleChineseTraditional": "請關門。",
+    "examplePinyin": "Qǐng guān mén.",
+    "exampleEnglish": "Please close the door.",
+    "usageNote": "Pairs naturally with 开.",
+    "memoryHook": "A gate closing inward is a good image.",
+    "toneTip": "First tone stays level.",
+    "commonMistake": "Do not reduce it to second tone.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "18740498-e583-5190-987d-1fcd521643cb",
+    "simplified": "门",
+    "traditional": "門",
+    "pinyin": "mén",
+    "pinyinNumeric": "men2",
+    "pinyinSearch": "men",
+    "definitions": [
+      "door"
+    ],
+    "partOfSpeech": "word",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 50,
+    "radical": "门",
+    "radicalMeaning": "door",
+    "strokeCount": 3,
+    "components": [
+      "门"
+    ],
+    "categories": [
+      "family",
+      "work"
+    ],
+    "exampleChineseSimplified": "门在右边。",
+    "exampleChineseTraditional": "門在右邊。",
+    "examplePinyin": "Mén zài yòubiān.",
+    "exampleEnglish": "The door is on the right.",
+    "usageNote": "Useful in directions.",
+    "memoryHook": "A simple object word with clear shape.",
+    "toneTip": "Second tone rises gently.",
+    "commonMistake": "Do not pronounce it with an English r-like ending.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "0bbb2829-d512-5738-b2d7-613b41841d72",
+    "simplified": "左边",
+    "traditional": "左邊",
+    "pinyin": "zuǒbiān",
+    "pinyinNumeric": "zuo3 bian1",
+    "pinyinSearch": "zuo bian",
+    "definitions": [
+      "left side"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 51,
+    "radical": "工",
+    "radicalMeaning": "work",
+    "strokeCount": 10,
+    "components": [
+      "左",
+      "边"
+    ],
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "exampleChineseSimplified": "银行在左边。",
+    "exampleChineseTraditional": "銀行在左邊。",
+    "examplePinyin": "Yínháng zài zuǒbiān.",
+    "exampleEnglish": "The bank is on the left side.",
+    "usageNote": "Good for navigation.",
+    "memoryHook": "Side words make travel scenes easier.",
+    "toneTip": "Third tone then first tone.",
+    "commonMistake": "Keep 边 light and short.",
+    "relatedEntryIds": [
+      "dc93e439-700d-519f-963a-64b45665cec5"
+    ],
+    "isPremium": true,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "dc93e439-700d-519f-963a-64b45665cec5",
+    "simplified": "右边",
+    "traditional": "右邊",
+    "pinyin": "yòubiān",
+    "pinyinNumeric": "you4 bian1",
+    "pinyinSearch": "you bian",
+    "definitions": [
+      "right side"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 52,
+    "radical": "口",
+    "radicalMeaning": "mouth",
+    "strokeCount": 10,
+    "components": [
+      "右",
+      "边"
+    ],
+    "categories": [
+      "travel",
+      "transport"
+    ],
+    "exampleChineseSimplified": "咖啡店在右边。",
+    "exampleChineseTraditional": "咖啡店在右邊。",
+    "examplePinyin": "Kāfēidiàn zài yòubiān.",
+    "exampleEnglish": "The cafe is on the right side.",
+    "usageNote": "Pairs with 左边 in directions.",
+    "memoryHook": "Use with landmarks around you.",
+    "toneTip": "Fourth tone then first tone.",
+    "commonMistake": "Do not blend the syllables together.",
+    "relatedEntryIds": [
+      "0bbb2829-d512-5738-b2d7-613b41841d72"
+    ],
+    "isPremium": true,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "67663d7f-f801-53b0-ba0e-fe01b23198b4",
+    "simplified": "现在",
+    "traditional": "現在",
+    "pinyin": "xiànzài",
+    "pinyinNumeric": "xian4 zai4",
+    "pinyinSearch": "xian zai",
+    "definitions": [
+      "now"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 53,
+    "radical": "王",
+    "radicalMeaning": "jade",
+    "strokeCount": 13,
+    "components": [
+      "现",
+      "在"
+    ],
+    "categories": [
+      "time",
+      "work"
+    ],
+    "exampleChineseSimplified": "我现在有空。",
+    "exampleChineseTraditional": "我現在有空。",
+    "examplePinyin": "Wǒ xiànzài yǒu kòng.",
+    "exampleEnglish": "I am free now.",
+    "usageNote": "Very common time adverb.",
+    "memoryHook": "Present moment in two falling tones.",
+    "toneTip": "Both syllables are fourth tone.",
+    "commonMistake": "Do not let the second one disappear.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "bf4c6f17-c431-5184-9320-69a2b889a45b",
+    "simplified": "一点",
+    "traditional": "一點",
+    "pinyin": "yìdiǎn",
+    "pinyinNumeric": "yi4 dian3",
+    "pinyinSearch": "yi dian",
+    "definitions": [
+      "a little",
+      "one o’clock"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 54,
+    "radical": "丶",
+    "radicalMeaning": "dot",
+    "strokeCount": 10,
+    "components": [
+      "一",
+      "占"
+    ],
+    "categories": [
+      "numbers",
+      "basics"
+    ],
+    "exampleChineseSimplified": "我会说一点中文。",
+    "exampleChineseTraditional": "我會說一點中文。",
+    "examplePinyin": "Wǒ huì shuō yìdiǎn Zhōngwén.",
+    "exampleEnglish": "I can speak a little Chinese.",
+    "usageNote": "Often softens quantity statements.",
+    "memoryHook": "One dot is a little amount.",
+    "toneTip": "一 changes tone before third tone here.",
+    "commonMistake": "Do not keep 一 flat.",
+    "relatedEntryIds": [],
+    "isPremium": false,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "76ab3fed-3e9a-5156-9603-4bc2b98e2024",
+    "simplified": "医院",
+    "traditional": "醫院",
+    "pinyin": "yīyuàn",
+    "pinyinNumeric": "yi1 yuan4",
+    "pinyinSearch": "yi yuan",
+    "definitions": [
+      "hospital"
+    ],
+    "partOfSpeech": "phrase",
+    "hskLevel": "HSK 3",
+    "frequencyRank": 55,
+    "radical": "匚",
+    "radicalMeaning": "box",
+    "strokeCount": 17,
+    "components": [
+      "医",
+      "院"
+    ],
+    "categories": [
+      "health",
+      "travel"
+    ],
+    "exampleChineseSimplified": "医院离这里远吗？",
+    "exampleChineseTraditional": "醫院離這裡遠嗎？",
+    "examplePinyin": "Yīyuàn lí zhèlǐ yuǎn ma?",
+    "exampleEnglish": "Is the hospital far from here?",
+    "usageNote": "Important travel safety word.",
+    "memoryHook": "Doctor and courtyard help the image.",
+    "toneTip": "First tone then fourth tone.",
+    "commonMistake": "Do not turn 院 into second tone.",
+    "relatedEntryIds": [],
+    "isPremium": true,
+    "createdAt": "2026-06-22T00:00:00Z",
+    "updatedAt": "2026-06-22T00:00:00Z"
+  }
+]
