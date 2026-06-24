@@ -19,6 +19,9 @@ Deno.serve(async (request) => {
   const format = (url.searchParams.get("format") ?? "json") as DictionaryFormat;
   const limit = Number(url.searchParams.get("limit") ?? "5000");
   const minUpdatedAt = url.searchParams.get("updated_after");
+  const category = url.searchParams.get("category");
+  const premium = url.searchParams.get("premium");
+  const hskLevel = url.searchParams.get("hsk_level");
 
   const supabaseUrl = Deno.env.get("SUPABASE_URL");
   const serviceRoleKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
@@ -59,6 +62,17 @@ Deno.serve(async (request) => {
     if (minUpdatedAt) {
       query = query.gt("updated_at", minUpdatedAt);
     }
+    if (category) {
+      query = query.contains("categories", [category]);
+    }
+    if (premium === "true") {
+      query = query.eq("is_premium", true);
+    } else if (premium === "false") {
+      query = query.eq("is_premium", false);
+    }
+    if (hskLevel) {
+      query = query.eq("hsk_level", hskLevel);
+    }
 
     const { data, error } = await query;
     if (error) {
@@ -66,7 +80,15 @@ Deno.serve(async (request) => {
     }
 
     const payload = (data ?? []).map(mapRowToHanziEntry);
-    return json(payload, 200);
+    return json(
+      {
+        items: payload,
+        count: payload.length,
+        updatedAfter: minUpdatedAt ?? null,
+        limit: Number.isFinite(limit) ? Math.min(limit, 10000) : 5000,
+      },
+      200,
+    );
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unknown failure";
     return json({ error: message }, 500);

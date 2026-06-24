@@ -2,19 +2,24 @@
 
 The shipped app works without backend credentials.
 
-## Suggested Production Backend
-- Supabase or custom API
-- Tables:
-  - users
-  - profiles
-  - review_states
-  - review_logs
-  - saved_entries
-  - daily_plans
-  - content_entries
-  - purchases
-  - entitlements
-  - device_tokens
+## Recommended Backend
+- Supabase
+- Why:
+  - Postgres gives us a clean home for the expanded dictionary.
+  - Edge Functions provide a small, versioned API surface.
+  - Row Level Security keeps user data isolated while content stays server-owned.
+
+## Tables
+- `profiles`
+- `review_states`
+- `review_logs`
+- `saved_entries`
+- `daily_plans`
+- `content_entries`
+- `content_import_batches`
+- `purchases`
+- `entitlements`
+- `device_tokens`
 
 ## Merge Rules
 - Local data is source of truth offline.
@@ -24,17 +29,19 @@ The shipped app works without backend credentials.
 - Content updates do not erase user progress.
 
 ## Recommended Dictionary API Shape
-- `GET /dictionary/mandarin`
-- Example Supabase edge path: `POST/GET /functions/v1/fetchContentUpdates`
+- `GET /functions/v1/fetchContentUpdates`
 - Auth: bearer token if needed
 - Response options:
-  - JSON: array of `HanziEntry`
+  - JSON: `{ items: [HanziEntry], count, updatedAfter, limit }`
   - CC-CEDICT text: raw dictionary lines in standard syntax
 
 Query parameters:
 - `format=json|cedict`
 - `limit=5000`
 - `updated_after=2026-06-22T00:00:00Z`
+- `category=basics|food|travel|...`
+- `premium=true|false`
+- `hsk_level=HSK 1`
 
 Example JSON shape:
 ```json
@@ -79,3 +86,14 @@ Example JSON shape:
 - Edge function: [`edge_functions/fetchContentUpdates.ts`](/Users/abrahambelayneh/MandarinDrift/Backend/edge_functions/fetchContentUpdates.ts)
 - Env template: [`Backend/.env.example`](/Users/abrahambelayneh/MandarinDrift/Backend/.env.example)
 - Schema includes `content_entries` for JSON-mode serving.
+
+## Expanded Dataset Workflow
+1. Run [`supabase_schema.sql`](</Users/abrahambelayneh/MandarinDrift/Backend/supabase_schema.sql>) in your Supabase project.
+2. Load a large licensed dictionary into `content_entries`.
+3. Track each import in `content_import_batches`.
+4. Deploy `fetchContentUpdates` as a Supabase Edge Function.
+5. Point the iOS app at the function URL in `ChineseDictionaryAPIURL`.
+
+## Notes
+- Keep the dictionary source licensed and attributable.
+- If you later add sync, keep the local app store-first and merge remote content by stable IDs.

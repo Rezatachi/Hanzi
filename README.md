@@ -55,15 +55,22 @@ Run in Xcode or with:
 - `SeedImporter` validates content at load time.
 
 ## Large Dictionary Import
-- The app now supports a remote large-dictionary import path through `ContentUpdateService`.
+- Supabase is the recommended production backend for the expanded dataset.
+- The app imports dictionary content through `ContentUpdateService` and the remote edge function at [`Backend/edge_functions/fetchContentUpdates.ts`](/Users/abrahambelayneh/MandarinDrift/Backend/edge_functions/fetchContentUpdates.ts).
 - Configure these Info.plist values via `project.yml` or Xcode build settings:
   - `ChineseDictionaryAPIURL`
   - `ChineseDictionaryAPIFormat` (`json` or `cedict`)
   - `ChineseDictionaryAPIToken` (optional bearer token)
-- Example backend is included at [`Backend/edge_functions/fetchContentUpdates.ts`](/Users/abrahambelayneh/MandarinDrift/Backend/edge_functions/fetchContentUpdates.ts).
-- The app will import entries during bootstrap and from **Profile > Refresh dictionary catalog**.
+- The JSON response can be either:
+  - a raw `[HanziEntry]` array
+  - an object with `items: [HanziEntry]` and metadata
+- Recommended setup:
+  1. Create a Supabase project.
+  2. Run [`Backend/supabase_schema.sql`](/Users/abrahambelayneh/MandarinDrift/Backend/supabase_schema.sql).
+  3. Load your expanded dictionary into `content_entries`.
+  4. Deploy the edge function.
+  5. Point `ChineseDictionaryAPIURL` at `/functions/v1/fetchContentUpdates`.
 - For `cedict`, the parser accepts standard CC-CEDICT-style lines and maps them into app entries.
-- For `json`, the endpoint should return `[HanziEntry]`.
 - Do not point the app directly at the MDBG CC-CEDICT download page; their page explicitly says automated or scripted access is prohibited. Use your own licensed backend or a separately permitted source.
 
 ## Persistence

@@ -91,9 +91,25 @@ public struct RemoteChineseDictionaryService: ContentUpdateService {
         case .json:
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
+            if let wrapper = try? decoder.decode(DictionaryUpdateResponse.self, from: data) {
+                return wrapper.items
+            }
             return try decoder.decode([HanziEntry].self, from: data)
         case .cedict:
             return try parser.parse(data: data, limit: config.importLimit)
         }
+    }
+}
+
+private struct DictionaryUpdateResponse: Decodable {
+    let items: [HanziEntry]
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        items = try container.decodeIfPresent([HanziEntry].self, forKey: .items) ?? []
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case items
     }
 }
