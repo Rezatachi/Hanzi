@@ -35,12 +35,20 @@ if (dryRun) {
   process.exit(0);
 }
 
+const schemaReady = await probeSupabaseSchema({ supabaseUrl, serviceRoleKey });
+if (!schemaReady.contentEntries) {
+  console.error("Missing public.content_entries. Run Backend/supabase_schema.sql in Supabase first.");
+  process.exit(1);
+}
+
 await recordImportBatch({
   supabaseUrl,
   serviceRoleKey,
   sourceName: "cc-cedict",
   sourceUrl,
   entryCount: uniqueRows.length,
+}).catch((error) => {
+  console.warn(`Skipping import batch record: ${error.message}`);
 });
 
 for (let index = 0; index < uniqueRows.length; index += batchSize) {
@@ -319,9 +327,31 @@ async function recordImportBatch({ supabaseUrl, serviceRoleKey, sourceName, sour
   });
 
   if (!response.ok) {
+    if (response.status === 404) {
+      throw new Error("content_import_batches table is missing. Run Backend/supabase_schema.sql first.");
+    }
     const text = await response.text();
     throw new Error(`Batch record failed: ${response.status} ${response.statusText} ${text}`);
   }
+}
+
+async function probeSupabaseSchema({ supabaseUrl, serviceRoleKey }) {
+  const response = await fetch(`${supabaseUrl.replace(/\/$/, "")}/rest/v1/content_entries?select=id&limit=1`, {
+    headers: {
+      apikey: serviceRoleKey,
+      authorization: `Bearer ${serviceRoleKey}`,
+    },
+  });
+
+  if (response.status === 404) {
+    return { contentEntries: false };
+  }
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`Schema probe failed: ${response.status} ${response.statusText} ${text}`);
+  }
+
+  return { contentEntries: true };
 }
 
 function parseArgs(argv) {
