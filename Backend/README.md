@@ -89,6 +89,7 @@ Example JSON shape:
 - Edge function: [`edge_functions/fetchContentUpdates.ts`](/Users/abrahambelayneh/MandarinDrift/Backend/edge_functions/fetchContentUpdates.ts)
 - Env template: [`Backend/.env.example`](/Users/abrahambelayneh/MandarinDrift/Backend/.env.example)
 - Schema includes `content_entries` for JSON-mode serving.
+- Bulk importer: [`tools/import_cedict.mjs`](/Users/abrahambelayneh/MandarinDrift/Backend/tools/import_cedict.mjs)
 
 ## Expanded Dataset Workflow
 1. Run [`supabase_schema.sql`](</Users/abrahambelayneh/MandarinDrift/Backend/supabase_schema.sql>) in your Supabase project.
@@ -96,6 +97,16 @@ Example JSON shape:
 3. Track each import in `content_import_batches`.
 4. Deploy `fetchContentUpdates` as a Supabase Edge Function.
 5. Point the iOS app at the function URL in `ChineseDictionaryAPIURL`.
+
+## Bulk import
+- Dry run:
+  - `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node Backend/tools/import_cedict.mjs --dry-run`
+- Full upload:
+  - `SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... node Backend/tools/import_cedict.mjs`
+- Optional overrides:
+  - `--source-url https://cc-cedict.org/editor/editor_export_cedict.php?c=gz`
+  - `--source-file /path/to/cedict.txt`
+- The importer uses the public CC-CEDICT download and upserts rows into `content_entries` with stable IDs so repeated imports are idempotent.
 
 ## Notes
 - Keep the dictionary source licensed and attributable.
