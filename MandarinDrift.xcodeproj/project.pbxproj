@@ -90,22 +90,22 @@
 		41DC02F87CFAA21336372C0F /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
 		509871891F220AF56469117E /* MandarinDriftTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MandarinDriftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE872B079DAF2F4F4A9EF55 /* StudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyView.swift; sourceTree = "<group>"; };
-		62A1EE0E9CD52199BEECB1B8 /* StoreKit.storekit */ = {isa = PBXFileReference; path = StoreKit.storekit; sourceTree = "<group>"; };
+		62A1EE0E9CD52199BEECB1B8 /* StoreKit.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKit.storekit; sourceTree = "<group>"; };
 		68BA8784DED8F9EDB2F69348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6A4CF91358EBBC633A2CFA02 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
 		716AEE39B959008215521628 /* MandarinDrift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MandarinDrift.entitlements; sourceTree = "<group>"; };
 		740E1AD02CBF83F74D16940A /* WidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEntry.swift; sourceTree = "<group>"; };
 		783FF75B69534471CD7D649A /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		805FE18BD21ABE9498ADF58A /* OnboardingFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlowView.swift; sourceTree = "<group>"; };
-		8107960AD86987B34277D0C6 /* MandarinDrift.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MandarinDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8107960AD86987B34277D0C6 /* MandarinDrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandarinDrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D7529F0D9BCB41ABE831F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CDF0E5D74201447A05EFAB1 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		8E9586CA166F091FD8B94706 /* WidgetTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		929CFF03C75A5EC01210BA2B /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = Core; sourceTree = SOURCE_ROOT; };
+		929CFF03C75A5EC01210BA2B /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = SOURCE_ROOT; };
 		92D62EB9B7075220CB1E4CDB /* MandarinDriftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandarinDriftUITests.swift; sourceTree = "<group>"; };
 		A250B02547496F5C695FF574 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		A930894182A8A5961D3D0390 /* DeepLinkAndFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkAndFeatureTests.swift; sourceTree = "<group>"; };
-		B7D3A7F66DFC533E10B30F4E /* MandarinDriftWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MandarinDriftWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D3A7F66DFC533E10B30F4E /* MandarinDriftWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MandarinDriftWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2BF4E3E90B773FB0642C66 /* WidgetSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSettingsView.swift; sourceTree = "<group>"; };
 		CF6925CCAFDE67A4AB5C1825 /* WidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetViews.swift; sourceTree = "<group>"; };
 		D5C86C61F478F703D580E5EB /* MandarinDriftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandarinDriftApp.swift; sourceTree = "<group>"; };
@@ -511,12 +511,6 @@
 					44BDB7B5F33E7B5508B753C5 = {
 						DevelopmentTeam = "";
 					};
-					C0DFD6BD161B0BB90510BD49 = {
-						DevelopmentTeam = "";
-					};
-					C4CE35292EC59B8B53C025D9 = {
-						DevelopmentTeam = "";
-					};
 					D1A3AFD38A9231E9CAF23B4C = {
 						DevelopmentTeam = "";
 					};
@@ -671,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Widgets/MandarinDriftWidgets.entitlements;
+				DEVELOPMENT_TEAM = 4A7DT3TTLV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mandarin Drift Widgets";
 				INFOPLIST_KEY_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
@@ -736,6 +731,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Widgets/MandarinDriftWidgets.entitlements;
+				DEVELOPMENT_TEAM = 4A7DT3TTLV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Mandarin Drift Widgets";
 				INFOPLIST_KEY_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
@@ -821,6 +817,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = App/MandarinDrift.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4A7DT3TTLV;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -927,6 +924,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = App/MandarinDrift.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4A7DT3TTLV;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

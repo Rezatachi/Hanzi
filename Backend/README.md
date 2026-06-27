@@ -81,6 +81,9 @@ Example JSON shape:
 ## Credentials
 - Keep secrets in excluded env/config files.
 - Use Keychain only for auth/session tokens.
+- Current project URL: `https://bbktobbqcouxifnrqqnf.supabase.co`
+- The key you provided is the publishable/anon key, which is safe for the client but not enough for server-side imports.
+- I still need the `service_role` key to run the bulk import or deploy scripts against your Supabase project.
 
 ## Included Example
 - Edge function: [`edge_functions/fetchContentUpdates.ts`](/Users/abrahambelayneh/MandarinDrift/Backend/edge_functions/fetchContentUpdates.ts)
