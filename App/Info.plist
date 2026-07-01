@@ -38,11 +38,11 @@
 		<string>com.example.mandarindrift.daily-refresh</string>
 	</array>
 	<key>ChineseDictionaryAPIFormat</key>
-	<string></string>
+	<string>json</string>
 	<key>ChineseDictionaryAPIToken</key>
-	<string></string>
+	<string>sb_publishable_CA-yU-kGIyu_7DclpHSx3g_Fo9kg117</string>
 	<key>ChineseDictionaryAPIURL</key>
-	<string></string>
+	<string>https://bbktobbqcouxifnrqqnf.supabase.co/functions/v1/fetchContentUpdates</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSPhotoLibraryAddUsageDescription</key>

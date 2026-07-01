@@ -18,6 +18,7 @@ Deno.serve(async (request) => {
   const url = new URL(request.url);
   const format = (url.searchParams.get("format") ?? "json") as DictionaryFormat;
   const limit = Number(url.searchParams.get("limit") ?? "5000");
+  const offset = Number(url.searchParams.get("offset") ?? "0");
   const minUpdatedAt = url.searchParams.get("updated_after");
   const category = url.searchParams.get("category");
   const premium = url.searchParams.get("premium");
@@ -57,7 +58,8 @@ Deno.serve(async (request) => {
       .from("content_entries")
       .select("*")
       .order("updated_at", { ascending: false })
-      .limit(Number.isFinite(limit) ? Math.min(limit, 10000) : 5000);
+      .order("id", { ascending: false })
+      .range(Number.isFinite(offset) ? Math.max(0, offset) : 0, (Number.isFinite(offset) ? Math.max(0, offset) : 0) + (Number.isFinite(limit) ? Math.min(limit, 10000) : 5000) - 1);
 
     if (minUpdatedAt) {
       query = query.gt("updated_at", minUpdatedAt);
@@ -86,6 +88,8 @@ Deno.serve(async (request) => {
         count: payload.length,
         updatedAfter: minUpdatedAt ?? null,
         limit: Number.isFinite(limit) ? Math.min(limit, 10000) : 5000,
+        offset: Number.isFinite(offset) ? Math.max(0, offset) : 0,
+        nextOffset: (Number.isFinite(offset) ? Math.max(0, offset) : 0) + payload.length,
       },
       200,
     );

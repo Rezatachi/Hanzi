@@ -14,6 +14,7 @@
 		235E69AFCF898ED51587D886 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C610741CD56240207DAB4 /* AppRouter.swift */; };
 		2AA41C68969637721246C50B /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DD548C51E0EC55B0A13967 /* ProfileSettingsView.swift */; };
 		2B748E3D28F5EBC64A42A895 /* SearchAndContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F4E33A8320CFDB777B259 /* SearchAndContentTests.swift */; };
+		34E0C6A8FDD64E2DA6B8EBD3 /* RemoteChineseDictionaryServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E8A9E4D5E4D07B37A9B7E /* RemoteChineseDictionaryServiceTests.swift */; };
 		351D4F566EA1E9F3E5D51B18 /* WallpaperGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE883FB36FACD79E7A48DD1 /* WallpaperGeneratorView.swift */; };
 		39D57B7A460E1D5913962CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D7529F0D9BCB41ABE831F7 /* Assets.xcassets */; };
 		3AB316EFE4652ACFC30E4F97 /* DailyPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E542B4E0070BE0F936AEA5 /* DailyPlanTests.swift */; };
@@ -85,6 +86,7 @@
 		32B65A12DB5C10FC743EE8E1 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		399AA60E50C0EA16ABE4EBDC /* MandarinDriftWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MandarinDriftWidgets.entitlements; sourceTree = "<group>"; };
 		3AC7DA9E67FB9A8D041C09AC /* WidgetStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetStateTests.swift; sourceTree = "<group>"; };
+		7D4E8A9E4D5E4D07B37A9B7E /* RemoteChineseDictionaryServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteChineseDictionaryServiceTests.swift; sourceTree = "<group>"; };
 		3BC785A43275FF3CF54B9C6B /* StudySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionView.swift; sourceTree = "<group>"; };
 		409C610741CD56240207DAB4 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		41DC02F87CFAA21336372C0F /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				2ABBFF294BBE030C2D7BF078 /* CEDICTParserTests.swift */,
 				09E542B4E0070BE0F936AEA5 /* DailyPlanTests.swift */,
 				A930894182A8A5961D3D0390 /* DeepLinkAndFeatureTests.swift */,
+				7D4E8A9E4D5E4D07B37A9B7E /* RemoteChineseDictionaryServiceTests.swift */,
 				F71F4E33A8320CFDB777B259 /* SearchAndContentTests.swift */,
 				F17896FC058F981605F5B487 /* SRSTests.swift */,
 			);
@@ -575,6 +578,7 @@
 				BA682FB8041799B5EF32E9B8 /* CEDICTParserTests.swift in Sources */,
 				3AB316EFE4652ACFC30E4F97 /* DailyPlanTests.swift in Sources */,
 				F396B91EB40108FDD0C92AEA /* DeepLinkAndFeatureTests.swift in Sources */,
+				34E0C6A8FDD64E2DA6B8EBD3 /* RemoteChineseDictionaryServiceTests.swift in Sources */,
 				8FD3880588C01113C744FBD6 /* SRSTests.swift in Sources */,
 				2B748E3D28F5EBC64A42A895 /* SearchAndContentTests.swift in Sources */,
 			);

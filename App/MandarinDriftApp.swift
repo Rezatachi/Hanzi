@@ -46,7 +46,7 @@ enum AppEnvironment {
                     url: url,
                     format: format,
                     bearerToken: token,
-                    importLimit: 8000
+                    importLimit: 10000
                 )
             )
         } else {

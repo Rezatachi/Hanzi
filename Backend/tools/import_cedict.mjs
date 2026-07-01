@@ -159,6 +159,40 @@ function parseCedict(text, sourceUrlValue) {
   return rows;
 }
 
+function toDatabaseRow(row) {
+  return {
+    id: row.id,
+    simplified: row.simplified,
+    traditional: row.traditional,
+    pinyin: row.pinyin,
+    pinyin_numeric: row.pinyinNumeric,
+    pinyin_search: row.pinyinSearch,
+    definitions: row.definitions,
+    part_of_speech: row.partOfSpeech,
+    hsk_level: row.hskLevel,
+    frequency_rank: row.frequencyRank,
+    radical: row.radical,
+    radical_meaning: row.radicalMeaning,
+    stroke_count: row.strokeCount,
+    components: row.components,
+    categories: row.categories,
+    example_chinese_simplified: row.exampleChineseSimplified,
+    example_chinese_traditional: row.exampleChineseTraditional,
+    example_pinyin: row.examplePinyin,
+    example_english: row.exampleEnglish,
+    usage_note: row.usageNote,
+    memory_hook: row.memoryHook,
+    tone_tip: row.toneTip,
+    common_mistake: row.commonMistake,
+    related_entry_ids: row.relatedEntryIds,
+    is_premium: row.isPremium,
+    source_name: row.sourceName,
+    source_url: row.sourceUrl,
+    source_updated_at: row.sourceUpdatedAt,
+    content_hash: row.contentHash,
+  };
+}
+
 function splitDefinitions(definitionsText) {
   return definitionsText
     .split(/(?<!\\)\//g)
@@ -296,7 +330,7 @@ async function upsertRows({ supabaseUrl, serviceRoleKey, rows }) {
       "content-type": "application/json",
       prefer: "resolution=merge-duplicates,return=minimal",
     },
-    body: JSON.stringify(rows),
+    body: JSON.stringify(rows.map(toDatabaseRow)),
   });
 
   if (!response.ok) {

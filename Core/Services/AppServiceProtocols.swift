@@ -76,28 +76,78 @@ public struct RemoteChineseDictionaryService: ContentUpdateService {
     }
 
     public func fetchUpdatesIfAvailable() async throws -> [HanziEntry] {
-        var request = URLRequest(url: config.url)
-        request.timeoutInterval = config.requestTimeout
-        if let bearerToken = config.bearerToken, !bearerToken.isEmpty {
-            request.setValue("Bearer \(bearerToken)", forHTTPHeaderField: "Authorization")
-        }
-
-        let (data, response) = try await session.data(for: request)
-        guard let http = response as? HTTPURLResponse, (200..<300).contains(http.statusCode) else {
-            throw ContentUpdateServiceError.invalidResponse
-        }
-
         switch config.format {
         case .json:
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .iso8601
-            if let wrapper = try? decoder.decode(DictionaryUpdateResponse.self, from: data) {
-                return wrapper.items
-            }
-            return try decoder.decode([HanziEntry].self, from: data)
+            return try await fetchPaginatedJSON()
         case .cedict:
+            let (data, response) = try await session.data(for: request(for: config.url))
+            guard let http = response as? HTTPURLResponse, (200..<300).contains(http.statusCode) else {
+                throw ContentUpdateServiceError.invalidResponse
+            }
             return try parser.parse(data: data, limit: config.importLimit)
         }
+    }
+
+    private func fetchPaginatedJSON() async throws -> [HanziEntry] {
+        let pageSize = max(1, min(config.importLimit ?? 5000, 10000))
+        var offset = 0
+        var aggregated: [HanziEntry] = []
+
+        while true {
+            let pageURL = urlWithQueryItems(base: config.url, items: [
+                URLQueryItem(name: "format", value: "json"),
+                URLQueryItem(name: "limit", value: String(pageSize)),
+                URLQueryItem(name: "offset", value: String(offset))
+            ])
+
+            let (data, response) = try await session.data(for: request(for: pageURL))
+            guard let http = response as? HTTPURLResponse, (200..<300).contains(http.statusCode) else {
+                throw ContentUpdateServiceError.invalidResponse
+            }
+
+            let page = try decodeJSONEntries(from: data)
+            guard !page.isEmpty else { break }
+            aggregated.append(contentsOf: page)
+
+            if page.count < pageSize {
+                break
+            }
+
+            offset += page.count
+        }
+
+        return dedupe(entries: aggregated)
+    }
+
+    private func decodeJSONEntries(from data: Data) throws -> [HanziEntry] {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .iso8601
+        if let wrapper = try? decoder.decode(DictionaryUpdateResponse.self, from: data) {
+            return wrapper.items
+        }
+        return try decoder.decode([HanziEntry].self, from: data)
+    }
+
+    private func request(for url: URL) -> URLRequest {
+        var request = URLRequest(url: url)
+        request.timeoutInterval = config.requestTimeout
+        if let bearerToken = config.bearerToken, !bearerToken.isEmpty {
+            request.setValue(bearerToken, forHTTPHeaderField: "apikey")
+            request.setValue("Bearer \(bearerToken)", forHTTPHeaderField: "Authorization")
+        }
+        return request
+    }
+
+    private func urlWithQueryItems(base: URL, items: [URLQueryItem]) -> URL {
+        var components = URLComponents(url: base, resolvingAgainstBaseURL: false) ?? URLComponents()
+        let existingItems = components.queryItems ?? []
+        components.queryItems = existingItems + items
+        return components.url ?? base
+    }
+
+    private func dedupe(entries: [HanziEntry]) -> [HanziEntry] {
+        var seen = Set<UUID>()
+        return entries.filter { seen.insert($0.id).inserted }
     }
 }
 
